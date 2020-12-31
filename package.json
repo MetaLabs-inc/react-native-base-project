@@ -10,16 +10,22 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
+    "@reduxjs/toolkit": "^1.5.0",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-gesture-handler": "^1.9.0",
     "react-native-localization": "^2.1.6",
     "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.1.9",
-    "react-native-screens": "^2.16.1"
+    "react-native-screens": "^2.16.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -27,7 +33,10 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
+    "@types/react-redux": "^7.1.14",
     "@types/react-test-renderer": "^16.9.2",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "babel-jest": "^25.1.0",
