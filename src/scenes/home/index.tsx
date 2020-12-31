@@ -2,6 +2,7 @@ import React from 'react';
 import {SafeAreaView, View, Text, Image} from 'react-native';
 import {styles} from './styles';
 import logo from '../../assets/images/logo.jpeg';
+import {strings} from './strings';
 
 export const Home = () => {
   return (
@@ -10,7 +11,8 @@ export const Home = () => {
         <View style={styles.sectionContainer}>
           <Text style={styles.sectionTitle}>Butterfly</Text>
           <Text style={styles.sectionDescription}>
-            <Text style={styles.highlight}>MetaLabs</Text> base project
+            <Text style={styles.highlight}>{strings.companyName}</Text>
+            {strings.typeOfProject}
           </Text>
         </View>
         <View style={styles.imageContainer}>
