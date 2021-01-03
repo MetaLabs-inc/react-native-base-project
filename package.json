@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --variant=devDebug --appIdSuffix=dev",
+    "android-prod": "react-native run-android --variant=prodRelease",
+    "android-qa": "react-native run-android --variant=qaDebug --appIdSuffix=qa",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
