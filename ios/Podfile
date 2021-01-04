@@ -3,6 +3,13 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
+project 'butterfly',
+        'Dev.Debug' => :debug,
+        'Dev.Release' => :release, 
+        'Qa.Debug' => :debug,
+        'Qa.Release' => :release, 
+        'Release' => :release
+
 target 'butterfly' do
   config = use_native_modules!
 
